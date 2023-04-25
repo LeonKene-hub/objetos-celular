@@ -1,0 +1,15 @@
+C:\Users\56026708820\Desktop\objetos-celular\bin\Debug\net7.0\objetos-celular.exe
+C:\Users\56026708820\Desktop\objetos-celular\bin\Debug\net7.0\objetos-celular.deps.json
+C:\Users\56026708820\Desktop\objetos-celular\bin\Debug\net7.0\objetos-celular.runtimeconfig.json
+C:\Users\56026708820\Desktop\objetos-celular\bin\Debug\net7.0\objetos-celular.dll
+C:\Users\56026708820\Desktop\objetos-celular\bin\Debug\net7.0\objetos-celular.pdb
+C:\Users\56026708820\Desktop\objetos-celular\obj\Debug\net7.0\objetos-celular.csproj.AssemblyReference.cache
+C:\Users\56026708820\Desktop\objetos-celular\obj\Debug\net7.0\objetos-celular.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\56026708820\Desktop\objetos-celular\obj\Debug\net7.0\objetos-celular.AssemblyInfoInputs.cache
+C:\Users\56026708820\Desktop\objetos-celular\obj\Debug\net7.0\objetos-celular.AssemblyInfo.cs
+C:\Users\56026708820\Desktop\objetos-celular\obj\Debug\net7.0\objetos-celular.csproj.CoreCompileInputs.cache
+C:\Users\56026708820\Desktop\objetos-celular\obj\Debug\net7.0\objetos-celular.dll
+C:\Users\56026708820\Desktop\objetos-celular\obj\Debug\net7.0\refint\objetos-celular.dll
+C:\Users\56026708820\Desktop\objetos-celular\obj\Debug\net7.0\objetos-celular.pdb
+C:\Users\56026708820\Desktop\objetos-celular\obj\Debug\net7.0\objetos-celular.genruntimeconfig.cache
+C:\Users\56026708820\Desktop\objetos-celular\obj\Debug\net7.0\ref\objetos-celular.dll
