@@ -2,6 +2,25 @@
 Celular Xperia = new Celular();
 
 Console.WriteLine(@$"
+======================
+|   Seja bem vindo!  |
+|   a nossa loja de  |
+|   celulares        |
+======================
+
+Ha algum modelo que o interresa?
+");
+Xperia.Modelo = Console.ReadLine();
+
+Console.WriteLine($"Otimo, qual tamanho de tela voce gosta?");
+Xperia.Tamanho = float.Parse(Console.ReadLine());
+
+Console.WriteLine($"Alguma cor em especial?");
+Xperia.Cor = Console.ReadLine();
+
+Console.WriteLine($"Aqui esta, modelo {Xperia.Modelo}, da cor {Xperia.Cor} que voce pediu. A tela e de {Xperia.Tamanho} polegadas.");
+
+Console.WriteLine(@$"
 ┌-----------------┐
 │                 │
 │                 │
@@ -28,29 +47,11 @@ if (opcoes == "1")
 {
     Xperia.Ligar();
 }
-
-if (Xperia.Ligado)
+do
 {
-    switch (opcoes)
-    {
-        case "2":
-        Xperia.Fazerligacao();
-            break;
-        case "3":
-        Xperia.EnviarMensagem();
-            break;
-        default:
-            break;
-    }
     
-}
-//ligado / desliagado
-switch (Xperia.Ligado)
+if (Xperia.Ligado == true)
 {
-    case true:
-
-    do
-    {
     Console.WriteLine(@$"
 ┌-----------------┐
 │                 │
@@ -71,35 +72,23 @@ switch (Xperia.Ligado)
 │                 │
 └-----------------┘
 ");
-opcoes = Console.ReadLine();
-        
-    } while (opcoes != "0");
-
-  
-        break;
-    case false:
-    Console.WriteLine(@$"
-┌-----------------┐
-│                 │
-│                 │
-│                 │
-│                 │
-│                 │
-│                 │
-│                 │
-│                 │
-│                 │
-│                 │
-│                 │
-│    Precione 1   │
-│    para ligar   │
-├-----------------┤
-│                 │
-│                 │
-└-----------------┘
-");
+    opcoes = Console.ReadLine();
     
-        break;
-    default:
-        break;
+    switch (opcoes)
+    {
+        case "2":
+            Xperia.Fazerligacao();
+            break;
+        case "3":
+        Xperia.EnviarMensagem();
+            break;
+        case "0":
+            Xperia.Desligar();
+            Console.WriteLine($"Fim!");
+            break;
+        default:
+            break;
+    }
+    
 }
+} while (Xperia.Ligado == true);

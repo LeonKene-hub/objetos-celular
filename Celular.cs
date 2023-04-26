@@ -17,19 +17,31 @@ namespace objetos_celular
         public void Ligar()
         {
             Ligado = true;
+            Console.WriteLine($"Ligando.........");
+            
         }
         public void Desligar()
         {
             Ligado = false;
+            Console.WriteLine($"Desligando.......");
+            
         }
         public void Fazerligacao()
         {
-            Console.WriteLine($"Voce nao tem contatos para liga");
+            Console.WriteLine(@$"
+            ===================================
+            | Voce nao tem contatos para liga |
+            ===================================
+            ");
             
         }
         public void EnviarMensagem()
         {
-            Console.WriteLine($"Sem contatos para enviar mensagens");
+            Console.WriteLine(@$"
+            ======================================
+            | Sem contatos para enviar mensagens |
+            ======================================
+            ");
             
         }
     }
